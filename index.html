@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    
+    <form>
+        <!-- prefill data -->
+        <label for="UG">UG</label>
+        <input type="text" id="UG" name="UG" value="UG20/SCCS/1001" readonly>
+        <br>
+        <!-- image -->
+        <label for="image">Image:</label>
+        <input type="file" id="image" name="image">
+        <!-- name -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Name">
+        <!-- Age -->
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" placeholder="Age" required>
+        <br/>
+        <!-- Deta -->
+        <label for="deta">Date:</label>
+        <input type="date" id="data" name="data" placeholder="Data">
+        <br>
+        <!-- Time -->
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" placeholder="Time">
+        <br>
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <!-- Password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="password">
+        <br>
+        <!-- Gender list -->
+        <label for="gender">Choose Gender</label>
+        <select name="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+        <br>
+        <!-- Agreement -->
+        <label for="agreement">Agreement</label>
+        <input type="checkbox" id="agreement" name="agreement">
+        <br>
+        <!-- Radio -->
+        <label for="radio">Choose one</label>
+        <label for="1">100 Level</label>
+        <input type="radio" id="1" name="radio" value="1" >
+        <label for="2">200 Level</label>
+        <input type="radio" id="2" name="radio" value="2" >
+        <label for="3">300 Level</label>
+        <input type="radio" id="3" name="radio" value="3" >
+        <br>
+        <!-- Submit --> 
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
